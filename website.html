@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<!--
+ * File: website.html
+ * Author: Nicholas McCormick (Faded)
+ * Date:
+ * Purpose: website design and development page
+
+ -->
+
+ <html lang="en">
+ <head>
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128559400-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128559400-1');
+</script>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <title>Website Design and Development</title>
+<meta http-equiv="Cache-control" content="public" max-age="86400">
+   <meta name="author" content="Nicholas J McCormick">
+   <meta name="description" content="Website Design | Website Development I use the latest technology to create professional graphics, and unique, secure, robust websites.
+   I combine my experience as a graphic designer with my education as a programmer to offer a wide variety of services to content creators and small business owners.">
+
+   <meta name="keywords" content="website design ember graphics, website designer, developer, website, landing page, website design, twitch, gaming, streaming, stream, overlay, graphic design, graphic, design, visuals,
+   designer, programmer, ember graphics, stream design, animated overlay, animated">
+
+   <meta itemprop="name" content="Ember Graphics - Twitch Overlays, Alerts, and Stream Designs">
+   <meta itemprop="headline" content="Ember Graphics Website Design - Twitch Overlays, Alerts, and Stream Designs">
+   <meta itemprop="description" content="Ember Graphics - Twitch Overlays, Alerts, and Stream Designs">
+   <meta itemprop="author" content="Nicholas">
+   <!-- OG tags -->
+   <meta property="og:locale" content="en_US">
+   <meta property="og:site_name" content="Ember Graphics - Website Design">
+   <meta property="og:title" content="Ember Graphics - Dark Souls Themed Stream Package">
+   <meta property="og:url" content="https://embergraphics.com/website.html">
+   <meta property="og:type" content="website">
+   <meta property="og:description" content="Ember Graphics - Twitch Overlays, Alerts, and Stream Designs">
+
+
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+   <!-- Fonts -->
+
+   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/solid.css"
+    integrity="sha384-Rw5qeepMFvJVEZdSo1nDQD5B6wX0m7c5Z/pLNvjkB14W6Yki1hKbSEQaX9ffUbWe" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css"
+    integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
+
+   <!-- Custom CSS Styles -->
+   <link rel="stylesheet" href="css/website_v2.css">
+   <link rel="stylesheet" href="css/line-icons.css">
+
+   <!-- jQuery library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   <!-- Popper.js Library -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+   integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+   <!-- Latest compiled JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+   integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+   <!-- Easing.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+
+   <link rel="icon"
+  type="image/png"
+  href="images/icon2.png">
+
+
+ </head>
+ <body>
+
+   <div id="preloader">
+           <div class="loader">
+             <video class="load-vid" preload muted autoplay loop>
+               <source src="images/load.mp4" type="video/mp4">
+             </video>
+
+           </div>
+       </div>
+   <!--Top Navagation Bar -->
+   <nav class="navbar navbar-expand-lg nav-color fixed-top navbar-shrink1 text-small">
+
+
+     <div class="container">
+
+     <a class="navbar-brand" href="index.html">
+
+       <img src="images/logo.png" class="brand-text d-inline-block align-top nav-link logo-img"/>
+
+     </a>
+
+
+       <!-- Menu Button when small screen-->
+       <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon" onclick="openNav()"></span>
+       </button>
+
+       <div class="collapse navbar-collapse">
+         <ol class="breadcrumb navbar-nav ml-auto">
+           <li class="breadcrumb-item"><a class="nav-link-shop nav-text nav-animation" href="index.html">HOME</a></li>
+           <li class="breadcrumb-item active"><a class="nav-link-shop nav-text nav-animation" aria-current="page">Website Design / Development</a></li>
+
+         </ol>
+
+       </div>
+
+       <!--Nav Overlay -->
+         <div id="myNav" class="overlay">
+           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           <div class="overlay-content">
+             <a href="index.html" onclick="closeNav()">Home</a>
+             <a href="about.html" onclick="closeNav()">About</a>
+             <a href="#Contact" onclick="closeNav()">Contact</a>
+
+             <a href="stream_design.html" onclick="closeNav()">Graphic Design</a>
+             <a href="shop.html" onclick="closeNav()">Shop</a>
+           </div>
+         </div>
+
+     </div>
+     </nav>
+     <!-- End of Nav -->
+
+
+     <!-- Content -->
+
+         <!-- Top Section -->
+
+           <div class="jumbotron jumbotron-fluid web-section mt-5" style="background-color: transparent;">
+             <video id="video-background" preload muted autoplay loop style="top: auto;">
+               <source src="images/back3.mp4" type="video/mp4">
+
+             </video>
+             <section class="">
+
+           <div class="container text-center mt-5">
+
+                 <div class="shop-list web-content-text about-font">
+                   <h1 class="title-font jumbo-text-shadow jumbotron-text">Website Design and Development</h1>
+                   <h6 style="">I create fast, secure, personalized landing pages.</h6>
+                 </div>
+
+                 <div class="web-logos">
+
+
+                   <div class="web-logo-html mt-4 web-logo-pos">
+                     <img class="html animatable fadeInUp img-fluid" style="animation-delay: 0.5s;" src="images/logos/html.svg" alt="HTML5 Logo">
+                   </div>
+
+                   <div class="web-logo-css mt-4 web-logo-pos">
+                     <img class="css3 animatable fadeInUp img-fluid" style="animation-delay: 1s;" src="images/logos/css.svg" alt="CSS3 Logo">
+                   </div>
+
+                   <div class="web-logo-js mt-4 web-logo-pos">
+                     <img class="js animatable fadeInUp img-fluid" style="animation-delay: 1.3s;" src="images/logos/js.svg" alt="javascript Logo">
+                   </div>
+
+                   <div class="web-logo-ps mt-4 web-logo-pos">
+                     <img class="photoshop animatable fadeInUp img-fluid" style="animation-delay: 0.9s;" src="images/logos/ps.svg" alt="photoshop Logo">
+                   </div>
+
+                   <div class="web-logo-boot mt-4 web-logo-pos">
+                     <img class="boot animatable fadeInUp img-fluid" style="animation-delay: 0.7s;" src="images/logos/boot.svg" alt="bootstrap Logo">
+                   </div>
+
+                   <div class="web-logo-j mt-4 web-logo-pos">
+                     <img class="jquery animatable fadeInUp img-fluid" style="animation-delay: 0.6s;" src="images/logos/j.svg" alt="jquery Logo">
+                   </div>
+
+                   <div class="web-logo-php mt-4 web-logo-pos">
+                     <img class="php animatable fadeInUp img-fluid" style="animation-delay: 0.8s;" src="images/logos/php.svg" alt="php Logo">
+                   </div>
+
+
+
+
+                 </div>
+
+
+             </div>
+
+           </section>
+           </div>
+<!-- Top Section End -->
+
+
+           <div class="container">
+             <div class="row">
+               <div class="col-lg-12 mx-auto">
+
+                 <h1 class="my-2 text-center portfolio-head-text title-font">What you Get?
+                 <img class="img-fluid float-left my-line" src="images/line.png">
+                 </h1>
+
+<!--
+                 <h1 class="about-font text-center mb-2" style="color: #d8d8d8; font-weight: 300;">Better Than a WordPress Site</h1>
+                 <hr class="hr-main" style="width: 60%;">
+
+                 <p class="lead about-font" style="font-weight: 300;">
+                   Using WordPress to build your site is like lighting a match with a flamethrower.
+                   You get what you need, but you also get a lot of stuff you don’t, and unless you’re experienced in writing HTML5 and CSS3, you have limited customization options.
+                   This is where I come in. I am fully capable of creating a WordPress site if you want to go that route, but I am also capable of customizing and creating the perfect site for you without WordPress.
+                   This means every website I work on will load many times faster than a website created with WordPress simply because I make sure you only get what you need.
+                   Faster loading times enhance user experience and make them more likely to visit your site again.
+                   <br>
+                   <br>
+                   Faster loading times is only one of the benefits I offer.
+                 -->
+               </div>
+             </div>
+           </div>
+
+           <div class="container">
+             <div class="row animatable bounceInRight">
+
+               <div class="col-sm-6 order-sm-12">
+                 <img class="img-fluid" src="images/seo.png" alt="Search Engine Optimization">
+               </div>
+
+               <div class="col-sm-6 order-sm-1">
+                   <div class="row">
+                     <div class="col-12">
+                       <h2 class="about-font text-center mb-2" style="color: #d8d8d8;">SEARCH OPTIMIZATION</h2>
+                     </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-12">
+                    <p class="shop-list about-font">
+                      Every site I work on comes with basic SEO (search engine optimization) where I make sure your site is Google-friendly
+                       by customizing the SEO settings and content to make it easier for customers to find you online.
+
+                    </p>
+                    </div>
+                 </div>
+
+               </div>
+
+             </div>
+           </div>
+
+           <div class="container">
+             <div class="row animatable bounceInLeft">
+               <div class="col-sm-6">
+                 <img class="img-fluid" src="images/responsive.jpg" alt="Responsive Design">
+               </div>
+
+               <div class="col-sm-6">
+                 <div class="row">
+                   <div class="col-12">
+                     <h2 class="about-font text-center mb-2" style="color: #d8d8d8;">RESPONSIVE DESIGN</h2>
+                   </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12">
+                  <p class="shop-list about-font">
+I create responsive websites that will be optimized for all devices ensuring customers will have the best experience no matter the device.
+
+                  </p>
+                  </div>
+               </div>
+               </div>
+             </div>
+           </div>
+
+
+           <div class="container">
+             <div class="row animatable bounceInRight">
+
+               <div class="col-sm-6 order-sm-12">
+                 <img class="img-fluid" src="images/host.png" alt="Reliable Hosting">
+               </div>
+
+               <div class="col-sm-6 order-sm-1">
+                   <div class="row">
+                     <div class="col-12">
+                       <h2 class="about-font text-center mb-2" style="color: #d8d8d8;">RELIABLE HOSTING</h2>
+                     </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-12">
+                    <p class="shop-list about-font">
+                      I do the legwork and find the best hosting solution based on your hosting needs.
+
+                    </p>
+                    </div>
+                 </div>
+
+               </div>
+
+             </div>
+           </div>
+
+           <div class="container">
+             <div class="row animatable bounceInLeft">
+               <div class="col-sm-6">
+                 <img class="img-fluid" src="images/social.png" alt="Social Media Connections">
+               </div>
+
+               <div class="col-sm-6">
+                 <div class="row">
+                   <div class="col-12">
+                     <h2 class="about-font text-center mb-2" style="color: #d8d8d8;">SOCIAL MEDIA CONNECTIONS</h2>
+                   </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12">
+                  <p class="shop-list about-font">
+                     I’ll help you stay connected by linking any social media outlets you have with your new website.
+
+                  </p>
+                  </div>
+               </div>
+               </div>
+             </div>
+           </div>
+
+
+               <section id="pricing" class="pricing-section padding">
+           		    <div class="container">
+
+                           <div class="section-heading mb-60 text-center animatable fadeInUp" style="animation-delay: 0ms;">
+
+                               <h1 class="my-4 text-center portfolio-head-text title-font">Pricing &amp; Options
+                               <img class="img-fluid float-left my-line" src="images/line.png">
+                               </h1>
+                               <p class="shop-list about-font">I will build you a UNIQUE professional website landing page!<br>My goal is to help you get leads with a custom, tailored to your brand, landing page.</p>
+                           </div>
+
+           		        <div class="row pricing-wrap">
+                        <!-- Pricing 1 -->
+           		            <div class="col-md-4 col-sm-6 sm-padding animatable fadeInUp" style="animation-delay: 0ms;">
+           		                <div class="pricing-box text-center">
+           		                    <div class="pricing-head">
+           		                        <i class="icon-layers"></i>
+           		                        <h3>Basic</h3>
+           		                        <h2 class="title-font">$214</h2>
+           		                    </div>
+           		                    <ul class="pricing-info about-font tx-white">
+
+           		                        <li>Responsive Design</li>
+           		                        <li>1 Section Included</li>
+           		                        <li>Social Media Icons</li>
+                                      <li>Basic On-Site SEO</li>
+
+           		                    </ul>
+
+           		                </div>
+           		            </div>
+                          <!-- Pricing 2 -->
+           		            <div class="col-md-4 col-sm-6 sm-padding animatable fadeInUp" style="animation-delay: 200ms;">
+           		                <div class="pricing-box middle text-center">
+           		                    <div class="pricing-head">
+           		                        <i class="icon-strategy"></i>
+           		                        <h3>Standard</h3>
+           		                        <h2 class="title-font">$310</h2>
+           		                    </div>
+           		                    <ul class="pricing-info about-font tx-white">
+
+                                    <li>Responsive Design</li>
+                                    <li>2 Sections Included</li>
+                                    <li>Social Media Icons</li>
+                                    <li>Basic On-Site SEO</li>
+                                    <li>Functional Contact Section (Optional)</li>
+                                    <li>Animated Sections</li>
+
+           		                    </ul>
+
+           		                </div>
+           		            </div>
+                          <!-- Pricing 3 -->
+           		            <div class="col-md-4 col-sm-6 sm-padding animatable fadeInUp" style="animation-delay: 400ms;">
+           		                <div class="pricing-box text-center">
+           		                    <div class="pricing-head">
+           		                        <i class="icon-genius"></i>
+           		                        <h3>Premium</h3>
+           		                        <h2 class="title-font">$997</h2>
+           		                    </div>
+           		                    <ul class="pricing-info about-font tx-white">
+           		                        <li>Ultra Fast Load Time</li>
+                                      <li>Responsive Design</li>
+                                      <li>5 Sections Included</li>
+                                      <li>Social Media Icons</li>
+                                      <li>On-Site SEO with Structured Data from Google</li>
+                                      <li>Functional Contact Section (Optional)</li>
+                                      <li>Animated Sections</li>
+                                      <li>90+ Website Grade Score</li>
+           		                    </ul>
+
+           		                </div>
+           		            </div>
+           		        </div>
+           		    </div>
+           		</section>
+
+              <!-- FAQ -->
+              <div class="container">
+
+                <div class="section-heading text-center" style="animation-delay: 0ms;">
+
+                    <h1 class="my-4 text-center portfolio-head-text title-font">FAQ
+                    <img class="img-fluid float-left my-line" src="images/line.png">
+                    </h1>
+
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+
+<button class="accordion shop-list about-font animatable fadeInUp">Where can I check the grade of my website?</button>
+<div class="panel shop-list about-font">
+  <p>I recommend using <a class="contact-text" href="https://website.grader.com">https://website.grader.com/</a> from Hubspot.
+    I can guarantee a 90+ grade for a premium website project (assuming that you have SSL).</p>
+</div>
+
+<button class="accordion shop-list about-font animatable fadeInUp">I don't have a website. Can I use the landing page as a website?</button>
+<div class="panel shop-list about-font">
+  <p>Absolutly. The landing pages I make can be about anything. A webpage about you, your business, your hobby, etc.</p>
+</div>
+
+<button class="accordion shop-list about-font animatable fadeInUp">Do you offer website hosting or domain registration?</button>
+<div class="panel shop-list about-font">
+  <p>I can certainly help you with finding a suitable host and registering your domain name.
+    If you don’t want the hassle of maintaining your site hosting or remembering to renew your domain,
+    I will be happy to manage it all for you. Of course you will have full ownership in case you ever want to log in yourself.</p>
+</div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+         <!-- Contact Me -->
+         <section id="Contact">
+           <div class="container">
+             <div class="row">
+               <div class="col-lg-12 mx-auto">
+                 <h1 class="my-4 text-center portfolio-head-text title-font">CONTACT ME
+                 <img class="img-fluid float-left my-line" src="images/line.png">
+                 </h1>
+                 <P class="shop-list about-font">
+                   Interested in working with me?
+
+                   You can ask questions, offer suggestions, or just leave a comment!
+
+                 </p>
+
+
+                 <form id="myForm" action="mailMePHP.php" name="myEmailForm" method="post">
+                   <div class="col-md-6 form-line">
+                     <div class="form-group">
+                       <label for="exampleInputUsername">Your name</label>
+                       <input type="text" class="form-control lead about-font" id="inputName" placeholder=" Enter Name" name="name" required/>
+                     </div>
+                     <div class="form-group">
+                       <label for="exampleInputEmail">Email Address <small class="about-font" style="font-size: 12px; color: #bbb;">(So I can contact you)</small></label>
+                       <input type="email" class="form-control lead about-font" id="inputEmail" placeholder=" Enter Email" name="email" required/>
+                     </div>
+                     <div class="form-group">
+                       <label for="telephone">Website <small class="about-font" style="font-size: 12px; color: #bbb;">(Optional)</small></label>
+                       <input type="url" class="form-control lead about-font" id="inputWebsite" placeholder=" Website or Twitch/YouTube channel" name="website"/>
+                     </div>
+                   </div>
+
+
+                   <div class="col-md-6 message-area">
+                     <div class="form-group">
+                       <label for ="description"> Message</label>
+                       <textarea  type="text" class="form-control about-font" id="description" placeholder="Enter Your Message" name="message" required></textarea>
+                     </div>
+
+                     <div>
+                       <button type="submit" class="btn btn-default submit grow">Send Message<div class="check" tabindex="-1"> <i class="fas fa-check-circle"></i></div></button>
+                     </div>
+
+                   </div>
+
+                 </form>
+
+               </div>
+             </div>
+           </div>
+         </section>
+
+
+         <!-- Contact End -->
+
+         <!-- START: Share Buttons -->
+         <div class="social-buttons-div">
+        <ul>
+            <li>
+              <span class="social-buttons-span" title="Share on Twitter">
+                        <a href="https://twitter.com/User__Nick" target="_blank">
+                          <img src="images/logos/twitter.svg" class="social-buttons-span-img" />
+                        </a>
+              </span>
+                    <span class="social-buttons-span-text" social-text>Twitter</span>
+            </li>
+<!--
+            <li>
+              <span class="social-buttons-span" title="Share on FaceBook">
+                        <a href="" target="_blank">
+                          <img src="images/logos/facebook2.svg" class="social-buttons-span-img" />
+                        </a>
+              </span>
+                    <span class="social-buttons-span-text-fb" social-text>FaceBook</span>
+            </li>
+-->
+            <li>
+              <span class="social-buttons-span" title="My YouTube">
+                        <a href="https://www.youtube.com/channel/UCjV8MUhO84umB9rdp95m2_g/featured" target="_blank">
+                          <img src="images/logos/yt.svg" class="social-buttons-span-img" />
+                        </a>
+              </span>
+                    <span class="social-buttons-span-text-yt" social-text>YouTube</span>
+            </li>
+          </ul>
+    </div>
+
+
+
+
+
+
+     <!-- Footer -->
+ <footer class="py-5 mt-5 my-footer">
+   <div class="container">
+     <p class="m-0 text-center footer-text title-font">Copyright © Nicholas McCormick 2019</p>
+
+   </div>
+ </footer>
+
+
+     <!--Custom JS -->
+     <script src="js/main.js"></script>
+     <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("acc-active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+ </body>
+ </html>

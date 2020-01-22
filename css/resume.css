@@ -1,0 +1,78 @@
+/*
+ * File: resume.css
+ * Author: Nicholas Joseph McCormick
+ * Date: May 15, 2018
+ * Purpose: Website CSS
+ */
+
+ @media (min-width: 992px) {
+ body {
+     padding-top: 0;
+     padding-left: 17rem;
+ } }
+
+ 
+ body {
+     font-family: 'Open Sans',serif;
+     padding-top: 54px;
+     color: #868e96;
+ }
+
+ @media (min-width: 992px){
+#sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+}
+}
+
+@media (min-width: 992px) {
+#sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: .5rem;
+}
+}
+
+@media (min-width: 992px) {
+#sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: .5rem solid rgba(255,255,255,.2);
+}
+}
+
+@media (min-width: 992px) {
+#sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+} }
+
+
+
+@media (min-width: 992px) {
+
+section.resume-section {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+} }
+
+
+@media (min-width: 768px) {
+
+section.resume-section {
+    min-height: 100vh;
+}
+
+
+section.resume-section {
+    border-bottom: 1px solid #dee2e6;
+    padding-top: 5rem!important;
+    padding-bottom: 5rem!important;
+}
+}
